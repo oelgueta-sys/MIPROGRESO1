@@ -646,7 +646,7 @@ function buildNoEvaluados() {
     return;
   }
   const heading = semanaActiva === 'ALL'
-    ? '⚠ ' + list.length + ' DE ' + total + ' COLABORADORES CON EVALUACIONES PENDIENTES (S01 Y/O S02)'
+    ? '⚠ ' + list.length + ' DE ' + total + ' COLABORADORES CON EVALUACIONES INCUMPLIDAS (S01 Y/O S02)'
     : '⚠ ' + list.length + ' DE ' + total + ' COLABORADORES NO EVALUADOS EN ' + semanaActiva;
   const cards = list.map(c =>
     '<div class="no-eval-card">' +
